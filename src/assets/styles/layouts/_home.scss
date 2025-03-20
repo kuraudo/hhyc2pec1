@@ -55,3 +55,41 @@ body {
   font-size: 0.75rem;
   text-align: center;
 }
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url('../images/mallorca1.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.container {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.container__category {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.container__wrapper{
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+.container__list{
+  li{
+    text-shadow: 2px 2px 5px;
+  }
+}

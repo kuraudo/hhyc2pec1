@@ -5,21 +5,75 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
+    <title>UOC PEC1</title>
   </head>
   <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
+    <div class="header">
+      <h1>Visita Mallorca</h1>
+    </div>
+    <div class="container">
+      <div class="container__category">
+        <article>
+          <h2>¿Por qué visitar Mallorca?</h2>
+          <p><strong>Mallorca es una isla con alma</strong>, un destino con una importante historia que nos cuenta a través de sus museos y monumentos. 
+            <strong>Mallorca destila cultura y tradición</strong> y ofrece la posibilidad de sorprenderse descubriendo sus efervescentes ciudades que contrastan con la tranquilidad de sus pueblos.
+          </p>
+          <p>La costa de Mallorca está formada por <strong>550 kilómetros</strong> que se dividen entre escarpados acantilados e <strong>infinitas calas y playas</strong> que se abren a las <strong>aguas cristalinas del Mediterráneo</strong>. 
+            Entre las opciones más populares se encuentran la impresionante playa de Formentor, 
+            la concurrida playa de El Arenal, o Es Trenc, una de las mejores playas vírgenes de la isla.
+          </p>
+          <p>Los principales atractivos para el turismo en Mallorca son el sol y sus <strong>playas</strong>, 
+            pero la isla tiene mucho más que ofrecer a sus visitantes. 
+            En el interior de Mallorca se conservan <strong>lugares recónditos en los que el tiempo parece haberse detenido</strong>, 
+            además de una <strong>majestuosa naturaleza en estado salvaje</strong> que envuelve a los visitantes en un cálido abrazo.
+          </p>
+          <p>El turismo en Mallorca incluye un maravilloso despliegue gastronómico. 
+            <strong>Deliciosos quesos, vinos y dulces ensaimadas</strong>. 
+            Los ingredientes de la tierra y el mar perfectamente marinados se mezclan para crear <strong>sabores especiales</strong> que hacen que sea imposible no caer en la tentación… 
+            y con mucho gusto.
+          </p>
+        </article>      
+        <article>
+          <h2>Qué ver en Mallorca</h2>
+          <div class="container__wrapper">
+            <img class="container__image" src="./assets/images/bellver1.webp">
+          </div>     
+          <p>En Mallorca hay múltiples localizaciones fascinantes que ver. Entre arquitectura de distintas épocas de la historia, a localizaciones naturales.</p>
+          <p>Aquí detallamos una<strong>lista con 10 lugares imprescindibles</strong> que debes ver si visitas la isla. </p>
+          <ul class="container__list">
+            <li>Catedral de Palma</li>
+            <li>El casco antiguo de Alcudia</li>
+            <li>Las cuevas del Drach</li>
+            <li>El castillo de Bellver</li>
+            <li>El gran hotel</li>
+            <li>Sa calobra</li>
+            <li>Cabo formentor</li>
+            <li>El palacio de la Almudaina</li>
+            <li>Caló del Moro</li>
+            <li>Cala Mondragó</li>
+          </ul>
+        </article>     
+        <article>
+          <h2>Gastronomía</h2>
+          <div class="container__wrapper">
+            <img class="container____image" src="./assets/images/comida.webp">
+          </div>     
+          <p>El recetario tradicional mallorquín vive un resurgir tras años de predominio de la cocina internacional para satisfacer los paladares de los turistas. Cocineros y restaurantes reivindican sus raíces culinarias, los excelentes productos de la isla, su amor por las verduras y las especias, su creatividad sin límites con la pastelería salada y su gran variedad de embutidos. La <strong>comida típica de Mallorca</strong> tiene ese espíritu isleño de autoabastecimiento, en tiempos duros, y de celebración en época de bonanza.</p>
+          <p>Aquí va una <strong>lista con 10 platos clásicos</strong> que no te puedes perder si visitas la isla. </p>
+          <ul class="container__list">
+            <li>'Arrós brut'</li>
+            <li>'Tumbet'</li>
+            <li>'Pa amb oli'</li>
+            <li>Empanadas</li>
+            <li>'Cocas'</li>
+            <li>'Pica-pica'</li>
+            <li>Frito mallorquín</li>
+            <li>Lechona</li>
+            <li>Sopas mallorquinas</li>
+            <li>'Peix a la llauna'</li>
+          </ul>
+        </article>     
+      </div>
     </div>
     <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
